@@ -1,0 +1,16 @@
+@import './scss/bootstrap';
+
+body {
+  background-color: #212529;
+}
+
+.paintBrush {
+  display: none;
+}
+
+.iconSection:hover img {
+  filter: blur(3px);
+}
+.iconSection:hover .paintBrush {
+  display: block;
+}
